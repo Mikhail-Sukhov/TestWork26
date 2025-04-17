@@ -1,0 +1,619 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: storefront-child\n"
+"POT-Creation-Date: 2025-04-17 12:38+0300\n"
+"PO-Revision-Date: 2025-04-17 12:39+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: ;esc_html__;$esc_html__;__;esc_html_e;_e;_x;"
+"esc_html__x;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: ../../---- SRC ----\n"
+
+#: functions.php:60
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: functions.php:61
+msgid "No results found"
+msgstr "Результатов найдено не было"
+
+#: functions.php:62
+msgid "An error occurred"
+msgstr "Произошла ошибка"
+
+#: inc/admin/weather-api-settings.php:13
+msgid "Weather API Settings"
+msgstr "Настройка API погоды"
+
+#: inc/admin/weather-api-settings.php:24
+msgid "API key for OpenWeatherMap service"
+msgstr "API ключ для OpenWeatherMap"
+
+#: inc/admin/weather-api-settings.php:34
+msgid "OpenWeatherMap API Key"
+msgstr "OpenWeatherMap API Key"
+
+#: inc/admin/weather-api-settings.php:54
+msgid "Enter API key"
+msgstr "Вставьте API ключ"
+
+#: inc/admin/weather-api-settings.php:60
+#, php-format
+msgid ""
+"Get your API key at <a href=\"%s\" target=\"_blank\">OpenWeatherMap</a>."
+msgstr ""
+"Вставьте свой API ключ для <a href=\"%s\" target=\"_blank\">OpenWeatherMap</"
+"a>."
+
+#: inc/ajax/weather-handlers.php:12
+msgid "Invalid security token"
+msgstr "Недопустимый токен безопасности"
+
+#: inc/ajax/weather-handlers.php:50 inc/helpers/get-city-temperature.php:21
+msgid "No data"
+msgstr "Нет данных"
+
+#: inc/helpers/get-city-temperature.php:26
+msgid "API key not configured"
+msgstr "Ключ API не настроен"
+
+#: inc/helpers/get-city-temperature.php:54
+msgid "API connection error"
+msgstr "Ошибка подключения к API"
+
+#: inc/helpers/get-city-temperature.php:68
+msgid "Weather data unavailable"
+msgstr "Данные о погоде недоступны"
+
+#: inc/post-types/cities.php:15 inc/post-types/cities.php:17
+msgid "Cities"
+msgstr "Города"
+
+#: inc/post-types/cities.php:16 templates/page-weather-table.php:33
+msgid "City"
+msgstr "Город"
+
+#: inc/post-types/cities.php:18
+msgid "All Cities"
+msgstr "Все города"
+
+#: inc/post-types/cities.php:43
+msgid "Countries"
+msgstr "Страны"
+
+#: inc/post-types/cities.php:44 templates/page-weather-table.php:32
+msgid "Country"
+msgstr "Страна"
+
+#: inc/post-types/meta-boxes-cities.php:17
+msgid "City Coordinates"
+msgstr "Координаты города"
+
+#: inc/post-types/meta-boxes-cities.php:39
+msgid "Latitude"
+msgstr "Latitude"
+
+#: inc/post-types/meta-boxes-cities.php:49
+msgid "Longitude"
+msgstr "Долгота"
+
+#: inc/widget/weather-cities.php:15
+msgid "Weather City Widget"
+msgstr "Виджет погоды для города"
+
+#: inc/widget/weather-cities.php:17
+msgid "Displays weather for selected city"
+msgstr "Отображает погоду для выбранного города"
+
+#: inc/widget/weather-cities.php:52
+#, php-format
+msgid "Temperature: %s"
+msgstr "Температура: %s"
+
+#: inc/widget/weather-cities.php:78
+msgid "Select City:"
+msgstr "Выберите Город:"
+
+#: templates/page-weather-table.php:23
+msgid "Search City..."
+msgstr "Поиск Города..."
+
+#: templates/page-weather-table.php:26
+msgid "Search"
+msgstr "Поиск"
+
+#: templates/page-weather-table.php:34
+msgid "Temperature"
+msgstr "Температура"
+
+#~ msgid "Invalid coordinates"
+#~ msgstr "Неверные координаты"
+
+#~ msgid "Search city or country..."
+#~ msgstr "Поиск города или страны..."
+
+#, fuzzy
+#~| msgid "Comments"
+#~ msgid "Comment History"
+#~ msgstr "Комментарии"
+
+#, fuzzy
+#~| msgid "Homepage Settings"
+#~ msgid "Settings"
+#~ msgstr "Настройка домашней страницы"
+
+#, fuzzy
+#~| msgid "Services"
+#~ msgid "Overview"
+#~ msgstr "Услуги"
+
+#~ msgid "Comments"
+#~ msgstr "Комментарии"
+
+#, fuzzy
+#~| msgid "Contact information(*)"
+#~ msgid "For more information:"
+#~ msgstr "Контактная информация(*)"
+
+#, fuzzy
+#~| msgid "to comment."
+#~ msgid "No comment history."
+#~ msgstr "для комментирования"
+
+#, fuzzy
+#~| msgid "Comments"
+#~ msgid "Comment discarded."
+#~ msgstr "Комментарии"
+
+#, fuzzy
+#~| msgid "Comments on the order:"
+#~ msgid "Comment not found."
+#~ msgstr "Комментарии к заказу:"
+
+#, fuzzy
+#~| msgid "Table"
+#~ msgid "Enabled."
+#~ msgstr "Таблица"
+
+#, fuzzy
+#~| msgid "The page you requested could not be found"
+#~ msgid "The API key you entered could not be verified."
+#~ msgstr "Страница на которую вы пытаетесь перейти не найдена"
+
+#, fuzzy
+#~| msgid "General settings"
+#~ msgid "Back to settings"
+#~ msgstr "Общие настройки"
+
+#, fuzzy
+#~| msgid "Comments on this post are closed!"
+#~ msgid "Comments are closed."
+#~ msgstr "Комментарии к этой записи закрыты!"
+
+#, fuzzy
+#~| msgid "Left sidebar"
+#~ msgid "Sidebar"
+#~ msgstr "Левый сайдбар"
+
+#, fuzzy
+#~| msgid "Heading"
+#~ msgid "Header"
+#~ msgstr "Заголовок"
+
+#, fuzzy
+#~| msgid "Heading"
+#~ msgid "Heading color"
+#~ msgstr "Заголовок"
+
+#, fuzzy
+#~| msgid "General settings"
+#~ msgid "General Layout"
+#~ msgstr "Общие настройки"
+
+#, fuzzy
+#~| msgid "About firm"
+#~ msgid "About"
+#~ msgstr "О фирме"
+
+#, fuzzy
+#~| msgid "Contact href"
+#~ msgid "Contact"
+#~ msgstr "Ссылка для контактов"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "Shop by Category"
+#~ msgstr "Категория"
+
+#, fuzzy
+#~| msgid "to comment."
+#~ msgid "We Recommend"
+#~ msgstr "для комментирования"
+
+#, fuzzy
+#~| msgid "to comment."
+#~ msgid "Skip to content"
+#~ msgstr "для комментирования"
+
+#, fuzzy
+#~| msgid "Page %d"
+#~ msgid "Pages:"
+#~ msgstr "Страница %d"
+
+#, fuzzy
+#~| msgid "Post a comment"
+#~ msgid "Leave a comment"
+#~ msgstr "Опубликовать комментарий"
+
+#, fuzzy
+#~| msgid "Comments"
+#~ msgid "1 Comment"
+#~ msgstr "Комментарии"
+
+#, fuzzy
+#~| msgid "Comments"
+#~ msgid "% Comments"
+#~ msgstr "Комментарии"
+
+#, fuzzy
+#~| msgid "Product(*):"
+#~ msgid "Product Page"
+#~ msgstr "Продукт(*)"
+
+#, fuzzy
+#~| msgid "Page %d"
+#~ msgid "Pages"
+#~ msgstr "Страница %d"
+
+#, fuzzy
+#~| msgid "Post a comment"
+#~ msgid "Post formats"
+#~ msgstr "Опубликовать комментарий"
+
+#, fuzzy
+#~| msgid "About firm"
+#~ msgid "About Us"
+#~ msgstr "О фирме"
+
+#, fuzzy
+#~| msgid "Email(*)"
+#~ msgid "Email"
+#~ msgstr "Ел.Почта(*)"
+
+#, fuzzy
+#~| msgid "You were looking for:"
+#~ msgid "What are you looking for?"
+#~ msgstr "Вы искали:"
+
+#~ msgid "Blog"
+#~ msgstr "Блог"
+
+#, fuzzy
+#~| msgid "Theme settings"
+#~ msgid "Themes"
+#~ msgstr "Настройки темы"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "Top Categories"
+#~ msgstr "Категория"
+
+#, fuzzy
+#~| msgid "Get Post"
+#~ msgid "Other Posts"
+#~ msgstr "Добавить пост"
+
+#, fuzzy
+#~| msgid "Services"
+#~ msgid "Our services"
+#~ msgstr "Услуги"
+
+#, fuzzy
+#~| msgid "Get Post"
+#~ msgid "Newer Posts"
+#~ msgstr "Добавить пост"
+
+#, fuzzy
+#~| msgid "Get Post"
+#~ msgid "Older Posts"
+#~ msgstr "Добавить пост"
+
+#, fuzzy
+#~| msgid "Contact href"
+#~ msgid "Contact Us"
+#~ msgstr "Ссылка для контактов"
+
+#, fuzzy
+#~| msgid "Get Post"
+#~ msgid "Posts"
+#~ msgstr "Добавить пост"
+
+#, fuzzy
+#~| msgid "Search Results:"
+#~ msgid "Search the website"
+#~ msgstr "Результаты поиска:"
+
+#, fuzzy
+#~| msgid "Footer sidebar 1"
+#~ msgid "Footers"
+#~ msgstr "Сайдбар подвала 1"
+
+#, fuzzy
+#~| msgid "About firm"
+#~ msgid "About us"
+#~ msgstr "О фирме"
+
+#, fuzzy
+#~| msgid "Latest news"
+#~ msgid "Latest posts"
+#~ msgstr "Последние новости"
+
+#, fuzzy
+#~| msgid "Category"
+#~ msgid "Categories"
+#~ msgstr "Категория"
+
+#, fuzzy
+#~| msgid "There are no posts"
+#~ msgid "Featured posts"
+#~ msgstr "Постов нет"
+
+#, fuzzy
+#~| msgid "Readmore..."
+#~ msgid "Read more"
+#~ msgstr "Подробнее..."
+
+#, fuzzy
+#~| msgid "The right sidebar"
+#~ msgid "Blog posts with right sidebar"
+#~ msgstr "Правый сайдбар"
+
+#~ msgid "Tags"
+#~ msgstr "Метки"
+
+#, fuzzy
+#~| msgid "The right sidebar"
+#~ msgid "Poster with right sidebar"
+#~ msgstr "Правый сайдбар"
+
+#~ msgid "Date"
+#~ msgstr "Дата"
+
+#, fuzzy
+#~| msgid "Number of posts"
+#~ msgid "Grid of posts"
+#~ msgstr "Количество постов"
+
+#, fuzzy
+#~| msgid "Number of posts"
+#~ msgid "Simple blog posts"
+#~ msgstr "Количество постов"
+
+#, fuzzy
+#~| msgid "There are no posts"
+#~ msgid "Text-based grid of posts"
+#~ msgstr "Постов нет"
+
+#~ msgid "Error 404"
+#~ msgstr "Ошибка 404"
+
+#~ msgid "Try switching to"
+#~ msgstr "Попробуйте перейти на"
+
+#~ msgid "Main page"
+#~ msgstr "Главная страница"
+
+#~ msgid "Enter the password"
+#~ msgstr "Введите пароль"
+
+#~ msgid "Please"
+#~ msgstr "Пожалуйста"
+
+#~ msgid "register"
+#~ msgstr "зарегистрируйтесь"
+
+#~ msgid "Hello"
+#~ msgstr "Здравствуйте"
+
+#~ msgid "Slogan"
+#~ msgstr "Слоган"
+
+#~ msgid "Phone number"
+#~ msgstr "Номер(*)"
+
+#~ msgid "Phone number href"
+#~ msgstr "Ссылка для телефона"
+
+#~ msgid "Mail"
+#~ msgstr "Почта"
+
+#~ msgid "7 Stroiteley Street"
+#~ msgstr "Ул. Строителей, д. 7"
+
+#~ msgid "Address"
+#~ msgstr "Адрес"
+
+#~ msgid "Address script"
+#~ msgstr "Скрипт адреса"
+
+#~ msgid "Camomile LLC"
+#~ msgstr "ООО Ромашка"
+
+#~ msgid "Firm"
+#~ msgstr "Фирма"
+
+#~ msgid "Some text about firm"
+#~ msgstr "Какой-то текст о фирме"
+
+#~ msgid "Page Template"
+#~ msgstr "Настройка страниц"
+
+#~ msgid "Blog columns"
+#~ msgstr "Колонок в блоге"
+
+#~ msgid "Search Page Settings"
+#~ msgstr "Настройки страницы поиска"
+
+#~ msgid "Archive Page Settings"
+#~ msgstr "Настройки архивов"
+
+#~ msgid "Services labels"
+#~ msgstr "Метки услуг"
+
+#~ msgid "Array of service labels"
+#~ msgstr "Массив меток услуг"
+
+#~ msgid "Name of the service"
+#~ msgstr "Имя услуги"
+
+#~ msgid "Service image"
+#~ msgstr "Изображение услуги"
+
+#~ msgid "Service href"
+#~ msgstr "Ссылка услуги"
+
+#~ msgid "Price of services"
+#~ msgstr "Цена услуги"
+
+#~ msgid "Service description"
+#~ msgstr "Описание услуги"
+
+#~ msgid "Sidebar for the left column"
+#~ msgstr "Сайдбар для левой колонки"
+
+#~ msgid "Left combined sidebar"
+#~ msgstr "Левый комбинированный сайдбар"
+
+#~ msgid "Sidebar for the left combined column"
+#~ msgstr "Сайдбар для левой комбинированной колонки"
+
+#~ msgid "Sidebar for the right column"
+#~ msgstr "Сайдбар для правой колонки"
+
+#~ msgid "Right combined sidebar"
+#~ msgstr "Правый комбинированный сайбрар"
+
+#~ msgid "Sidebar for the right combined column"
+#~ msgstr "Сайдбар для правой комбинированной колонки"
+
+#~ msgid "Footer sidebar first line"
+#~ msgstr "Первая линия сайдбара подвала"
+
+#~ msgid "Footer sidebar 2"
+#~ msgstr "Сайдбар подвала 2"
+
+#~ msgid "Footer  sidebar second line"
+#~ msgstr "Вторая линия сайдбара подвала"
+
+#~ msgid "Mobile menu"
+#~ msgstr "Мобильное меню"
+
+#~ msgid "Top header menu"
+#~ msgstr "Верхнее меню шапки"
+
+#~ msgid "Fixed top header menu"
+#~ msgstr "Фиксированное верхнее меню шапки"
+
+#~ msgid "Bottom header menu"
+#~ msgstr "Нижнее меню шапки"
+
+#~ msgid "Home"
+#~ msgstr "Главная"
+
+#, php-format
+#~ msgid "Search results for - <b>%s</b>"
+#~ msgstr "Результаты поиска по запросу - <b>%s</b>"
+
+#, php-format
+#~ msgid "Author archive: <b>%s</b>"
+#~ msgstr "Архив автора: <b>%s</b>"
+
+#, php-format
+#~ msgid "Archive for <b>%d</b>"
+#~ msgstr "Архив за <b>%d</b> год"
+
+#, php-format
+#~ msgid "Archive for: <b>%s</b>"
+#~ msgstr "Архив за: <b>%s</b>"
+
+#, php-format
+#~ msgid "Media: %s"
+#~ msgstr "Медиа: %s"
+
+#, php-format
+#~ msgid "Posts by tag: <b>%s</b>"
+#~ msgstr "Записи по метке: <b>%s</b>"
+
+#, php-format
+#~ msgid "%1$s from \"%2$s\" by tag: <b>%3$s</b>"
+#~ msgstr "%1$s из \"%2$s\" по тегу: <b>%3$s</b>"
+
+#~ msgid "Order"
+#~ msgstr "Заказ"
+
+#~ msgid "Phone number(*)"
+#~ msgstr "Номер(*)"
+
+#~ msgid "Quantity(*):"
+#~ msgstr "Кол-во(*)"
+
+#~ msgid "Total:"
+#~ msgstr "Итого:"
+
+#~ msgid "Get Order"
+#~ msgstr "Заказать"
+
+#~ msgid "Profile"
+#~ msgstr "Профиль"
+
+#~ msgid "Out"
+#~ msgstr "Выход"
+
+#~ msgid "Login"
+#~ msgstr "Логин"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Log in"
+#~ msgstr "Войти"
+
+#~ msgid "Forgot your password?"
+#~ msgstr "Забыли пароль?"
+
+#~ msgid "Registration"
+#~ msgstr "Регистрация"
+
+#~ msgid "The search did not produce any results"
+#~ msgstr "Поиск не дал никаких результатов"
+
+#~ msgid "Number of news items"
+#~ msgstr "Количество постов"
+
+#~ msgid "Select the category"
+#~ msgstr "Выберете категорию"
+
+#~ msgid "Show an Image"
+#~ msgstr "Показывать изображения"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Login Form"
+#~ msgstr "Форма входа"
+
+#~ msgid "The text of the \"Log in\" button"
+#~ msgstr "Текст кнопки \"Войти\""
+
+#~ msgid "The text of the \"Log out\" button"
+#~ msgstr "Текст кнопки \"Выйти\""
